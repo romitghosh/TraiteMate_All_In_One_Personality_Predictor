@@ -1,0 +1,33 @@
+# For the backend directory, ignore the following files and directories
+# Node.js dependencies
+node_modules/
+# Build output
+dist/
+# Environment variables
+.env
+# Logs
+logs/
+# Temporary files
+tmp/
+# IDE specific files
+.vscode/
+# OS generated files
+.DS_Store
+# Coverage reports
+coverage/
+# Package lock files
+package-lock.json
+# Yarn lock files
+yarn.lock
+# Debugging files
+debug.log
+# Test files
+*.test.js
+*.spec.js
+# Database files
+db.sqlite
+# Configuration files
+config.json
+# Miscellaneous files
+*.log
+*.tmp
