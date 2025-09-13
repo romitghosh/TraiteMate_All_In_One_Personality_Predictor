@@ -8,7 +8,7 @@ import {
 import Homepage from "./components/Homepage";
 import QuizSelection from "./components/QuizSelection";
 import Quiz from "./components/Quiz";
-// import Results from "./components/Results";
+import Results from "./components/Results";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -37,10 +37,10 @@ const App = () => {
           element={user ? <QuizSelection /> : <Navigate to="/" />}
         />
         <Route path="/quiz" element={user ? <Quiz /> : <Navigate to="/" />} />
-        {/* <Route
+        {<Route
           path="/results"
           element={user ? <Results /> : <Navigate to="/" />}
-        /> */}
+        /> }
         <Route path="*" element={<div>404: Page Not Found</div>} />
       </Routes>
     </Router>

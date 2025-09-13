@@ -35,10 +35,9 @@ const QuizSelection = () => {
   const navigate = useNavigate();
 
   const handleQuizSelect = (quizType) => {
-    if(quizType === "office") {
       navigate("/quiz", { state: { quizType } });
-    }
   };
+  
 
   return (
     <div className="quiz-selection-container">
