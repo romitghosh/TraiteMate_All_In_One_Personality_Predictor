@@ -116,7 +116,7 @@ const Homepage = ({ user, setUser }) => {
 
       {/* Tests Taken Section */}
       <div className="tests-taken-section">
-        <h2>0 TESTS TAKEN IN THE LAST 30 DAYS</h2>
+        <h2>565,899 TESTS TAKEN IN THE LAST 30 DAYS</h2>
         <p>
           This free personality test gives you accurate scores for the Big Five
           personality traits. See exactly how you score for Openness,
